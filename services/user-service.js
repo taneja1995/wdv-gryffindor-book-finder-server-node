@@ -6,8 +6,8 @@ usersDao.createUser();
 const findAllUsers = () => {
     usersDao.findAllUsers();
 }
-const findUserById = (userId) => {
-    usersDao.findUserById(userId)
+const findUserById = (uid) => {
+    usersDao.findUserById(uid)
 
 }
 const updateUser = (userId) =>{
